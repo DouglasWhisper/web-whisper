@@ -1,0 +1,349 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+/* Cores 
+Cinza escuro #141518
+Preto de fundo #111215
+Rodapé #18191d
+Font projects #a3a6b0
+*/
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+body {
+  background-color: #111215;
+}
+
+.container {
+  max-width: 1190px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div h1 {
+  font-size: 36px;
+}
+
+/* NAV-BAR */
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  padding-left: 32px;
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background: -webkit-linear-gradient(left, #25b9e9, #25b9e9, #f80455);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.mid-main {
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.mid-main .text {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+}
+.mid-main img {
+  width: 280px;
+  height: 280px;
+}
+
+.low-main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-main {
+  display: flex;
+}
+
+.experience-main .years-main,
+.experience-main .projects-main {
+  display: flex;
+  align-items: center;
+}
+
+.projects-main h3 {
+  margin-right: 20px;
+  font-size: 58px;
+}
+
+.projects-main .row.col-6 {
+  text-align: start;
+}
+
+.years-main h3 {
+  margin-right: 20px;
+  font-size: 58px;
+}
+
+.years-main .row.col-8 {
+  text-align: start;
+}
+
+.row.flex-column {
+  text-align: right;
+}
+
+.contato-main {
+  align-items: center;
+  display: flex;
+}
+
+.low-main img {
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+}
+
+div.linha {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, #25b9e9, #f80455);
+  margin: 50px 0px;
+}
+
+.projects-main img {
+  width: 50px;
+  height: 50px;
+}
+
+.p-4.d-flex.justify-content-between.align-items-center {
+  background-color: #141518;
+  border-radius: 5px;
+}
+
+.p-4.d-flex.justify-content-between.align-items-center p {
+  color: #a3a6b0;
+}
+
+.features,
+.Contact-us {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form-control {
+  background-color: #141518;
+  border: 1px solid #141518;
+  border-bottom-color: #4b4b4b;
+}
+
+.btn.btn-primary {
+  background-color: #141518;
+  border: 1px solid #ffff;
+  padding: 10px;
+}
+
+.form-check {
+  margin-bottom: 20px;
+}
+
+.form-control:hover {
+  border: 1px solid #0089b3;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  background-color: #141518;
+}
+
+.form-control:valid {
+  border: 1px solid #00b300;
+  color: #ffffff;
+}
+
+.span-rgb-2,
+.span-rgb {
+  background: -webkit-linear-gradient(left, #25b9e9, #f80455);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-midia {
+  align-items: center;
+}
+.social-midia img {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  background-color: #141518;
+  margin-top: 100px;
+}
+
+.footer-midia h1 {
+  margin: 30px;
+}
+
+.social-midia a {
+  margin: 5px;
+}
+
+footer .container {
+  justify-content: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.check-button.d-flex.justify-content-center.align-items-center.flex-column
+  button:hover {
+  background: -webkit-linear-gradient(left, #25b9e9, #f80455);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.span-rgb-2 {
+  font-size: 54px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 375px) {
+  header .container {
+    display: flex;
+    width: 375px;
+    justify-content: space-between;
+  }
+
+  .navbar-nav.me-auto.mb-2.mb-lg-0 {
+    background-color: rgb(27, 27, 27);
+    width: 55px;
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  .navbar-toggler {
+    border-bottom: 1px solid white;
+    margin-top: 5px;
+    background-color: white;
+  }
+
+  .nav-item {
+    position: relative;
+    left: -29px;
+  }
+
+  .col-12.col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  main .mid-main {
+    height: 470px;
+  }
+
+  main .container {
+    align-items: center;
+  }
+
+  .low-main .container {
+    display: block;
+    height: 300px;
+  }
+
+  .low-main h3,
+  .low-main p {
+    margin: 0;
+  }
+
+  .low-main .container .experience-main .years-main .row.col-8 p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .low-main .container .experience-main .projects-main .row.col-12.col-6 p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .low-main .container .experience-main {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  .low-main .container .experience-main .projects-main,
+  .low-main .container .experience-main .years-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .low-main .container .contato-main .row.flex-column .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .low-main .container .contato-main,
+  .low-main .container .contato-main img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .low-main .container .contato-main {
+    margin-top: 20px;
+  }
+
+  .mid-main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .row.g-2 {
+    align-items: center;
+    display: block;
+  }
+
+  .col-6.p-4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .p-4.d-flex.justify-content-between.align-items-center {
+    display: block !important;
+    align-items: center imp !important;
+  }
+
+  .p-4.d-flex.justify-content-between.align-items-center .p-5,
+  .p-4.d-flex.justify-content-between.align-items-center h2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
