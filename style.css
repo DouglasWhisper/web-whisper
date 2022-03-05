@@ -30,6 +30,16 @@ header .container {
   align-items: center;
 }
 
+#navbar-login {
+  display: flex;
+}
+
+#navbar-login a {
+  color: white;
+  padding-left: 32px;
+  font-size: 14px;
+}
+
 header div h1 {
   font-size: 36px;
 }
@@ -43,7 +53,13 @@ header div h1 {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background: -webkit-linear-gradient(left, #25b9e9, #25b9e9, #f80455);
+  background: -webkit-linear-gradient(left, #25b9e9, #25b9e9, #f4494b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#navbar-login a:hover {
+  background: -webkit-linear-gradient(left, #25b9e9, #25b9e9, #f4494b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -120,7 +136,7 @@ header div h1 {
 div.linha {
   width: 100%;
   height: 1px;
-  background: linear-gradient(to right, #25b9e9, #f80455);
+  background: linear-gradient(to right, #080180, #f4494b);
   margin: 50px 0px;
 }
 
@@ -145,7 +161,8 @@ div.linha {
   margin-bottom: 50px;
 }
 
-.form-control {
+.form-control,
+#inlineFormCustomSelect {
   background-color: #141518;
   border: 1px solid #141518;
   border-bottom-color: #4b4b4b;
@@ -159,6 +176,31 @@ div.linha {
 
 .form-check {
   margin-bottom: 20px;
+}
+
+#inputState:hover,
+#inputCity:hover,
+#inputZip:hover,
+#inlineFormCustomSelect:hover {
+  border: 1px solid #0089b3;
+}
+
+#inputState:focus,
+#inputCity:focus,
+#inputZip:focus,
+#inlineFormCustomSelect:focus {
+  box-shadow: none;
+  background-color: #141518;
+}
+
+#inlineFormCustomSelect:focus-visible {
+  border: 1px solid #00b300;
+  color: #ffffff;
+}
+
+#inlineFormCustomSelect:visid {
+  border: 1px solid #00b300;
+  color: #ffffff;
 }
 
 .form-control:hover {
@@ -177,7 +219,7 @@ div.linha {
 
 .span-rgb-2,
 .span-rgb {
-  background: -webkit-linear-gradient(left, #25b9e9, #f80455);
+  background: -webkit-linear-gradient(left, #080180, #f4494b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
