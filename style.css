@@ -286,6 +286,10 @@ footer .container {
     background-color: white;
   }
 
+  #navbar-login {
+    display: none;
+  }
+
   .nav-item {
     position: relative;
     left: -29px;
