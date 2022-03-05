@@ -219,7 +219,7 @@ div.linha {
 
 .span-rgb-2,
 .span-rgb {
-  background: -webkit-linear-gradient(left, #080180, #f4494b);
+  background: -webkit-linear-gradient(left, #080170, #f4494b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
