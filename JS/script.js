@@ -29,5 +29,6 @@ formjs.addEventListener('submit', function (e) {
   formlastname.value = ''
   formemail.value = ''
   formmassage.value = ''
+  console.log()
   // final da limpeza
 })
