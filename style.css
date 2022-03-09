@@ -30,6 +30,31 @@ header .container {
   align-items: center;
 }
 
+/* LOGIN AREA*/
+.login-main .row {
+  background-color: #1e2024;
+  border: 1px solid #32353c;
+  border-radius: 1px;
+  padding: 20px;
+  position: absolute;
+
+  right: 390px;
+}
+
+.login-main .container .row .recuperar-login a {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+.recuperar-login,
+.recuperar-login a {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* FIM DO LOGIN AREA*/
+
 #navbar-login {
   display: flex;
 }
@@ -272,6 +297,31 @@ footer .container {
     width: 375px;
     justify-content: space-between;
   }
+
+  /* LOGIN AREA*/
+  .login-main .row {
+    background-color: #1e2024;
+    border: 1px solid #32353c;
+    border-radius: 1px;
+    padding: 20px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+
+  .login-main .container .row .recuperar.login a {
+    display: flex;
+    position: relative;
+    text-align: center;
+  }
+
+  .recuperar-login,
+  .recuperar-login a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  /* FIM DO LOGIN AREA*/
 
   .navbar-nav.me-auto.mb-2.mb-lg-0 {
     background-color: rgb(27, 27, 27);
