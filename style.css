@@ -31,14 +31,10 @@ header .container {
 }
 
 /* LOGIN AREA*/
-.login-main .row {
-  background-color: #1e2024;
-  border: 1px solid #32353c;
-  border-radius: 1px;
-  padding: 20px;
-  position: absolute;
-
-  right: 390px;
+.btn-modal {
+  padding: 5px;
+  background-color: #111215;
+  border: 1px solid #111215;
 }
 
 .login-main .container .row .recuperar-login a {
@@ -83,7 +79,8 @@ header div h1 {
   -webkit-text-fill-color: transparent;
 }
 
-#navbar-login a:hover {
+#navbar-login a:hover,
+.btn-modal:hover {
   background: -webkit-linear-gradient(left, #25b9e9, #25b9e9, #f4494b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
