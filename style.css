@@ -35,6 +35,7 @@ header .container {
   padding: 5px;
   background-color: #111215;
   border: 1px solid #111215;
+  color: white;
 }
 
 .login-main .container .row .recuperar-login a {
